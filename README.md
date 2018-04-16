@@ -20,7 +20,7 @@ Simply add the requirement to your Cartfile:
 ## Usage
 
 Import the library.
-`import import Base32Encoder`
+`import Base32Encoder`
 
 Use as any other unsigned integer type in Swift.
 

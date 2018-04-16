@@ -9,6 +9,8 @@ UInt4 is a Swift library that represents a 4-bit unsigned data type.
 The minimum value that can be represented in a `UInt4` is `0`.
 The maximum value that can be represented in a `UInt4` is `15`.
 
+The `UInt4` library has a comprehensive test suite.
+
 Internally, the bits of the `UInt4` are represented in an `Int`.  This means that 64-bits of memory (or 32-bits on 32-bit systems) are used for each `UInt4`.
 
 ## Installation
@@ -20,7 +22,7 @@ Simply add the requirement to your Cartfile:
 ## Usage
 
 Import the library.
-`import Base32Encoder`
+`import UInt4`
 
 Use as any other unsigned integer type in Swift.
 

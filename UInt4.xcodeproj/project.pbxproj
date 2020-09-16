@@ -33,6 +33,8 @@
 		63A33D3320843FAC0008B7B8 /* UInt4+UnsignedIntegerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63A33D3220843FAC0008B7B8 /* UInt4+UnsignedIntegerTests.swift */; };
 		63A33D35208499350008B7B8 /* LICENCE in Resources */ = {isa = PBXBuildFile; fileRef = 63A33D34208499350008B7B8 /* LICENCE */; };
 		63A33D3720849A250008B7B8 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 63A33D3620849A250008B7B8 /* README.md */; };
+		AF3EA3018122032B11B28A17 /* UInt4+CodableTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF3EAA9DCD8EDBA1AA636EA1 /* UInt4+CodableTests.swift */; };
+		AF3EAE1677087747172B488F /* UInt4+Codable.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF3EAE389355326A40CBB72B /* UInt4+Codable.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -75,6 +77,8 @@
 		63A33D3220843FAC0008B7B8 /* UInt4+UnsignedIntegerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UInt4+UnsignedIntegerTests.swift"; sourceTree = "<group>"; };
 		63A33D34208499350008B7B8 /* LICENCE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENCE; sourceTree = "<group>"; };
 		63A33D3620849A250008B7B8 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		AF3EAA9DCD8EDBA1AA636EA1 /* UInt4+CodableTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UInt4+CodableTests.swift"; sourceTree = "<group>"; };
+		AF3EAE389355326A40CBB72B /* UInt4+Codable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UInt4+Codable.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -132,6 +136,7 @@
 				63A33D20208430030008B7B8 /* UInt4+BinaryInteger.swift */,
 				63A33D1C20842FDB0008B7B8 /* UInt4+FixedWidthInteger.swift */,
 				63A33D1E20842FF20008B7B8 /* UInt4+UnsignedInteger.swift */,
+				AF3EAE389355326A40CBB72B /* UInt4+Codable.swift */,
 			);
 			path = UInt4;
 			sourceTree = "<group>";
@@ -151,6 +156,7 @@
 				63A33D3020843F940008B7B8 /* UInt4+BinaryIntegerTests.swift */,
 				63A33D2E20843F510008B7B8 /* UInt4+FixedWidthIntegerTests.swift */,
 				63A33D3220843FAC0008B7B8 /* UInt4+UnsignedIntegerTests.swift */,
+				AF3EAA9DCD8EDBA1AA636EA1 /* UInt4+CodableTests.swift */,
 			);
 			path = UInt4Tests;
 			sourceTree = "<group>";
@@ -277,6 +283,7 @@
 				63A33D21208430030008B7B8 /* UInt4+BinaryInteger.swift in Sources */,
 				63A33D0D20842E530008B7B8 /* UInt4+Equatable.swift in Sources */,
 				63A33D1B20842FC60008B7B8 /* UInt4+Strideable.swift in Sources */,
+				AF3EAE1677087747172B488F /* UInt4+Codable.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -295,6 +302,7 @@
 				63A33D3320843FAC0008B7B8 /* UInt4+UnsignedIntegerTests.swift in Sources */,
 				63A33D23208434020008B7B8 /* UInt4+HashableTests.swift in Sources */,
 				63A33D2D20843DA40008B7B8 /* UInt4+StrideableTests.swift in Sources */,
+				AF3EA3018122032B11B28A17 /* UInt4+CodableTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

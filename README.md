@@ -19,6 +19,26 @@ Internally, the bits of the `UInt4` are represented in an `Int`.  This means tha
 Simply add the requirement to your Cartfile:
 `github "markrenaud/UInt4"`
 
+### Swift Package Manager
+Include the dependency in the `depdendencies` value of your `Package.swift`
+
+```swift
+dependencies: [
+    .package(url: "https://github.com/markrenaud/UInt4", .upToNextMajor(from: "1.0.0"))
+]
+```
+
+Next, include the library in your target:
+
+```swift
+.target(
+    name: "YourTarget",
+    dependencies: [
+        "UInt4"
+    ]
+)
+```
+
 ## Usage
 
 Import the library.

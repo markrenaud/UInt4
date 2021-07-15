@@ -79,6 +79,7 @@
 		63A33D3620849A250008B7B8 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		AF3EAA9DCD8EDBA1AA636EA1 /* UInt4+CodableTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UInt4+CodableTests.swift"; sourceTree = "<group>"; };
 		AF3EAE389355326A40CBB72B /* UInt4+Codable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UInt4+Codable.swift"; sourceTree = "<group>"; };
+		DECAC2002698565700DD985D /* Package.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +106,7 @@
 			children = (
 				63A33D34208499350008B7B8 /* LICENCE */,
 				63A33D3620849A250008B7B8 /* README.md */,
+				DECAC2002698565700DD985D /* Package.swift */,
 				63A33CF22084237A0008B7B8 /* UInt4 */,
 				63A33CFD2084237A0008B7B8 /* UInt4Tests */,
 				63A33CF12084237A0008B7B8 /* Products */,

@@ -27,7 +27,13 @@
 import Foundation
 
 extension UInt4: Hashable {
+    @available(swift, deprecated: 4.0, message: "Deprecated in Swift 4.0 - Use hash(into:) instead")
     public var hashValue: Int {
         return internalValue.hashValue
+    }
+
+    @available(swift 4.0)
+    public func hash(into hasher: inout Hasher) {
+        hasher.combine(internalValue)
     }
 }

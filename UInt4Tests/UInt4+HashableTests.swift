@@ -28,13 +28,11 @@ import XCTest
 @testable import UInt4
 
 class UInt4_HashableTests: XCTestCase {
-    
+
     func testHashEqualToInternalValueHash() {
         let x:UInt4 = 8
         let y:Int = 8
 
         XCTAssertEqual(x.hashValue, y.hashValue)
-    
     }
-    
 }

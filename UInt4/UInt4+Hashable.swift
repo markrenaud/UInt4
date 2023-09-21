@@ -27,7 +27,7 @@
 import Foundation
 
 extension UInt4: Hashable {
-    public var hashValue: Int {
-        return internalValue.hashValue
+    public func hash(into hasher: inout Hasher) {
+        hasher.combine(internalValue)
     }
 }

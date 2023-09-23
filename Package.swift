@@ -19,5 +19,12 @@ let package = Package(
             exclude: [
                 "Info.plist"
             ]),
+        .testTarget(
+            name: "UInt4Tests",
+            dependencies: ["UInt4"],
+            path: "UInt4Tests",
+            exclude: [
+                "Info.plist"
+            ]),
     ]
 )
